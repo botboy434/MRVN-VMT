@@ -21,6 +21,7 @@ Clone this repo:
 
 ```
 $ git clone https://github.com/MRVN-Radiant/MRVN-vmt.git
+$ cd MRVN-vmt
 ```  
 
 ### Windows
@@ -32,7 +33,7 @@ Install dependencies with `pip`
 ```
 $ py -3.9 -m venv venv
 $ call venv/scripts/activate
-$ python -m pip --upgrade pip
+$ python -m pip install --upgrade pip
 $ python -m pip install -r requirements.txt
 ```
 
